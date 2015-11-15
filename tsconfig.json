@@ -1,0 +1,23 @@
+{
+    "filesGlob": [
+        "./typings/**/*.d.ts",
+        "./model/**/*.ts",
+        "./server/**/*.ts",
+        "./client/**/*.ts"
+    ],
+    "compilerOptions": {
+        "module": "none"
+    },
+    "compileOnSave": false,
+    "buildOnSave": false,
+    "files": [
+        "./typings/all-definitions.d.ts",
+        "./typings/custom.d.ts",
+        "./typings/ext/angular-meteor/angular-meteor.d.ts",
+        "./typings/ext/angularjs/angular.d.ts",
+        "./typings/ext/jquery/jquery.d.ts",
+        "./typings/ext/meteor/meteor.d.ts",
+        "./typings/ext/tsd.d.ts",
+        "./client/app.ts"
+    ]
+}
