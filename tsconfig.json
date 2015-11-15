@@ -6,7 +6,7 @@
         "./client/**/*.ts"
     ],
     "compilerOptions": {
-        "module": "none"
+        "module": "commonjs"
     },
     "compileOnSave": false,
     "buildOnSave": false,
@@ -18,6 +18,10 @@
         "./typings/ext/jquery/jquery.d.ts",
         "./typings/ext/meteor/meteor.d.ts",
         "./typings/ext/tsd.d.ts",
-        "./client/app.ts"
+        "./model/Recipe.ts",
+        "./server/dataseed.ts",
+        "./server/Recipe.ts",
+        "./client/app.ts",
+        "./client/components/recipes/recipes.ts"
     ]
 }
